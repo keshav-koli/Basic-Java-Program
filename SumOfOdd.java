@@ -13,3 +13,4 @@ public class SumOfOdd {
         } while (i<=20);
         }
 }
+
