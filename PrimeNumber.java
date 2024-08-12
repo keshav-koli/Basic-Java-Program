@@ -16,3 +16,5 @@ public class PrimeNumber {
         }
     }
 }
+
+// Write a Java program to find sum  of factorial of each digit in a given number 
