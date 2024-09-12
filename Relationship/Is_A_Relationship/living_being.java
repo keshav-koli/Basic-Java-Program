@@ -12,15 +12,22 @@ public class living_being {
         this.name = name;
         this.type = type;
     }
-    
+
     public void display() {
         System.out.println("Size: " + size);
         System.out.println("Color: " + color);
         System.out.println("Name: " + name);
         System.out.println("Type: " + type);
     }
-    public static void main(String [] args){
-        living_being obj = new living_being("Large", "Brown", "Elephant", "Mammal");
-        obj.display();
-    }
 }
+    class human extends living_being {
+        public human(String size, String color, String name, String type) {
+            super(size, color, name, type);
+        }
+        public static void main(String[] args) {
+            human obj2 = new human("Medium", "White", "Human", "Mammal");
+            living_being obj = new living_being("Large", "Brown", "Elephant", "Mammal");
+            obj.display();
+            obj2.display();
+        }
+    }
