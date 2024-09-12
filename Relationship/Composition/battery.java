@@ -1,4 +1,4 @@
-package Relationship;
+package Relationship.Composition;
 
 public class battery {
     String brand;

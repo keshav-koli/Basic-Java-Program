@@ -16,6 +16,6 @@ public class greater {
             big=c;
         }
         System.out.println("bigger number is "+big);
-
+        sc.close();
     }
 }
