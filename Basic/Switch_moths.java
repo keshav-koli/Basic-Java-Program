@@ -46,6 +46,6 @@ public class Switch_moths {
                 System.out.println("Invalid Input");
 
         }
-        sc.close();
+        // sc.close();
     }
 }
