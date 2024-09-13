@@ -12,7 +12,7 @@ public class living_being {
         this.name = name;
         this.type = type;
     }
-
+  
     public void display() {
         System.out.println("Size: " + size);
         System.out.println("Color: " + color);
