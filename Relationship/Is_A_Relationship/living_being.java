@@ -24,8 +24,13 @@ public class living_being {
         public human(String size, String color, String name, String type) {
             super(size, color, name, type);
         }
+        int age = 20;
+        public void display(){
+            System.out.println("age: " + age);
+        }
         public static void main(String[] args) {
             human obj2 = new human("Medium", "White", "Human", "Mammal");
+            obj2.display();
             living_being obj = new living_being("Large", "Brown", "Elephant", "Mammal");
             obj.display();
             obj2.display();
