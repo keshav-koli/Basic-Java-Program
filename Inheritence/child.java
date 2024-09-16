@@ -1,6 +1,6 @@
 package Inheritence;
 
-public class child extends parent{
+public class Child extends Parent{
     static {
         System.out.println("static child  is executing");
     }
