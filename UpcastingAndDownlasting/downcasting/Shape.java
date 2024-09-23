@@ -1,8 +1,9 @@
 package UpcastingAndDownlasting.downcasting;
 
 public class Shape {
-    int size;
-    public void shape(){
-        System.out.println("Shaping........");
+    String Name;
+    public void shape(String name){
+        this.Name=name;
+        System.out.println("Shape is "+this.Name);
     }
 }
