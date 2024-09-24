@@ -6,7 +6,7 @@ public class Vehicle {
     }
 }
 
-class car extends Vehicle {
+class Car extends Vehicle {
     public static void start() {
         System.out.println("car is starting");
     }
