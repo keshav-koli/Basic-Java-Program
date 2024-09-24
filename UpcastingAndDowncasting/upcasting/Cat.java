@@ -1,4 +1,4 @@
-package UpcastingAndDownlasting.upcasting;
+package UpcastingAndDowncasting.upcasting;
 
 public class Cat extends Animal {
     String type="Persion";

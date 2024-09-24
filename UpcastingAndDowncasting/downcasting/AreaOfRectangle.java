@@ -1,4 +1,4 @@
-package UpcastingAndDownlasting.downcasting;
+package UpcastingAndDowncasting.downcasting;
 
 public class AreaOfRectangle extends Shape{
     int length;

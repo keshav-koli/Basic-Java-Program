@@ -1,4 +1,4 @@
-package UpcastingAndDownlasting.upcasting;
+package UpcastingAndDowncasting.upcasting;
 
 public class TestAnimal {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package UpcastingAndDownlasting.upcasting;
+package UpcastingAndDowncasting.upcasting;
 
 class Animal {
     String name = "Animal";
