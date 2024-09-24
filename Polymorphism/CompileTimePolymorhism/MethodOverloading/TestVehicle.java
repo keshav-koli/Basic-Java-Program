@@ -8,6 +8,5 @@ public class TestVehicle {
         c.start();
         Vehicle v=new Car();
         v.start();
-        
     }
 }
