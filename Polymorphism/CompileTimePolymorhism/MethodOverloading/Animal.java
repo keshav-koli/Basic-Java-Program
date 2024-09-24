@@ -5,9 +5,10 @@ public class Animal {
         System.out.println("The animal makes a sound");
         
     }
-}
-class  Dog extends Animal {
-    public void sound() {
-        System.out.println("The Dog makes a bark");
+    public void  sound(String animalType){
+        System.out.println("The animal makes a sound"+animalType);
+    }
+    public void  sound(String animalType, int volume){
+        System.out.println("Type Of  Animal: "+animalType+" Volume: "+volume);
     }
 }
