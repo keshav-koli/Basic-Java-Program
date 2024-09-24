@@ -1,4 +1,4 @@
-package Polymorphism.CompileTimePolymorhism;
+package Polymorphism.CompileTimePolymorhism.MethodOverloading;
 
 public class Vehicle {
     public static void start() {
