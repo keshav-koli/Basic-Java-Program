@@ -5,8 +5,8 @@ public class TestVehicle {
         Vehicle.start();
         Car.start();
         Car c = new Car();
-        c.start();
+        // c.start();
         Vehicle v=new Car();
-        v.start();
+        // v.start();
     }
 }
