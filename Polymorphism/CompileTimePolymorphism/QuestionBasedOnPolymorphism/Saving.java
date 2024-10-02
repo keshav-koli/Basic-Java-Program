@@ -1,4 +1,4 @@
-package Polymorphism.CompileTimePolymorhism.Question;
+package Polymorphism.CompileTimePolymorphism.QuestionBasedOnPolymorphism;
 
 public class Saving extends Account {
     private int accountNumber;
