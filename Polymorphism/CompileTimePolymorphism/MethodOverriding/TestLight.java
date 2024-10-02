@@ -1,4 +1,4 @@
-package Polymorphism.CompileTimePolymorhism.MethodOverriding;
+package Polymorphism.CompileTimePolymorphism.MethodOverriding;
 
 public class TestLight {
     public static void main(String[] args) {
