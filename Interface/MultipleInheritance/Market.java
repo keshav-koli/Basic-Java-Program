@@ -1,4 +1,4 @@
-package Interface;
+package Interface.MultipleInheritance;
 public interface Market {
     double manipulate();
     void sale();

@@ -1,4 +1,4 @@
-package Interface;
+package Interface.MultipleInheritance;
 import java.util.Scanner;
 public class TestMarket {
     public static void main(String[] args) {
