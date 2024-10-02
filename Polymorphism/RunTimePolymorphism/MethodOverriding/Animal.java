@@ -1,4 +1,4 @@
-package Polymorphism.CompileTimePolymorphism.MethodOverriding;
+package Polymorphism.RunTimePolymorphism.MethodOverriding;
 
 public class Animal {
     public void sound(){

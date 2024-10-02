@@ -1,4 +1,4 @@
-package Polymorphism.CompileTimePolymorphism.MethodOverriding;
+package Polymorphism.RunTimePolymorphism.MethodOverriding;
 
 public class Driver {
     public static void main(String[] args) {
