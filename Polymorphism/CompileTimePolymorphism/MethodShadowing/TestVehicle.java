@@ -1,4 +1,4 @@
-package Polymorphism.CompileTimePolymorhism.MethodShadowing;
+package Polymorphism.CompileTimePolymorphism.MethodShadowing;
 
 public class TestVehicle {
     public static void main(String[] args) {

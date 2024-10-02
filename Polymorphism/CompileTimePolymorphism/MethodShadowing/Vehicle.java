@@ -1,4 +1,4 @@
-package Polymorphism.CompileTimePolymorhism.MethodShadowing;
+package Polymorphism.CompileTimePolymorphism.MethodShadowing;
 
 public class Vehicle {
     public static void start() {
