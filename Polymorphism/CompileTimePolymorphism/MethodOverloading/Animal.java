@@ -1,4 +1,4 @@
-package Polymorphism.CompileTimePolymorhism.MethodOverloading;
+package Polymorphism.CompileTimePolymorphism.MethodOverloading;
 
 public class Animal {
     public void sound(){
