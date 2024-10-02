@@ -1,4 +1,4 @@
- package Calculation;
+ package Abstraction.CalculatorUsingAbstraction;
  // Concrete class BasicCalculator
 public class BasicCalculator extends Calculator {
     

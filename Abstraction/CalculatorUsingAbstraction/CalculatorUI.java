@@ -1,5 +1,5 @@
 
-package Calculation;
+package Abstraction.CalculatorUsingAbstraction;
 import java.util.Scanner;
 
 // User interface for calculator
@@ -57,7 +57,8 @@ public class CalculatorUI {
                     return;
                 default:
                     System.out.println("Invalid choice. Try again!");
+                }
+                scanner.close();
             }
         }
-    }
 }
