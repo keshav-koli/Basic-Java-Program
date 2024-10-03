@@ -8,10 +8,7 @@ public class TestMarket {
             double user=sc.nextDouble();
             System.out.println("Enter number of items");
             double items=sc.nextDouble();
-            se.set_demand(user, items);
-            se.manipulate();
-            se.sale();
-            // System.out.println(se.demand);
+            se.sale(user, items);
         sc.close();
     }
 }
