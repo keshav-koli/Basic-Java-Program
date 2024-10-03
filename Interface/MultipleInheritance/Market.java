@@ -39,7 +39,6 @@ class Seller extends User implements Market {
         } else if(super.demand>=1){
             System.out.println("Price of item is Rs " + (int)(super.price)+"/-");
             System.out.println("No Sale available");
-            purchase();
         }
     }
 
