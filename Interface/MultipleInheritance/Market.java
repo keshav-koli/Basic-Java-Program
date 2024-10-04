@@ -25,12 +25,6 @@ class Seller extends User implements Market {
         return super.price;
     }
 
-    // @Override
-    // public void sale() {
-    //     // Default implementation or throw an exception
-    //     System.out.println("Sale method without parameters called.");
-    // }
-
     public void sale(double no_of_user, double no_of_items) {
         this.no_of_user = no_of_user;
         this.no_of_items = no_of_items;
