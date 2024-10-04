@@ -13,5 +13,10 @@ public class Current extends Account {
     public int get_balance(){
         return accountHolder;
     }
+    public void display(){
+        System.out.println("Account Holder: "+accountHolder);
+        System.out.println("Account Number: "+accountNumber);
+        System.out.println("Balance: "+balance);
+    }
 }
 
