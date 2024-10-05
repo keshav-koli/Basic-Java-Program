@@ -5,9 +5,6 @@ public class BasicArray{
         int [] arr=new int[5];
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter The Number");
-        // int a=sc.nextInt();
-        // int b=sc.nextInt();
-        // int c=sc.nextInt();
         for (int i = 0; i < 5; i++) {
             arr[i]=sc.nextInt();
         }
