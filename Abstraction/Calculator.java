@@ -5,6 +5,7 @@ public abstract class Calculator{
     abstract void subtract(int a, int b);
     abstract void multiply(int a, int b);
     abstract void divide(int a, int b);
+    abstract void power(int a,int b);
 }
 
 class Functionality extends Calculator{
@@ -19,7 +20,9 @@ class Functionality extends Calculator{
     } 
     public void divide (int a,int b){
         System.out.println("divide is " +a+b );
-        
+    }
+    public void power (int a,int b){
+        System.out.println("divide is " +a+b );
     }
 }
 
