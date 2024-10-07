@@ -10,13 +10,16 @@ public class SecondElement {
         }
         int SecondElement=arr[0];
         int max=arr[0];
-        for (int i = 0; i < arr.length; i++) {
-            max=arr[i];
+        for (int i = 1; i < arr.length; i++) {
+            if(max < arr[i]){
+                SecondElement=max;
+                max=arr[i];
+            }
+            else if(SecondElement<arr[i]){
+                    SecondElement=arr[i];
+            }
         }
-        if(SecondElement>max){
-            SecondElement=max;
-        }
-        System.out.println("Maximum Number is "+ SecondElement);
+        System.out.println("Second Maximum Number is "+ SecondElement);
         sc.close();
     }
 }
