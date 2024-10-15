@@ -2,20 +2,21 @@ package ObjectClass.HashCode;
 
 public class student {
     int sid;
-    String Sname;
+    String sname;
 
     public student(int sid, String sname) {
         this.sid = sid;
-        Sname = sname;
+        this.sname = sname;
     }
     public boolean  equals(Object o){
         student s=(student)o;
-        return this.sname=s.sname && this.sid=s.sid;
+        return this.sname.equals(s.sname) && this.sid == s.sid;
     }
     public int hashCode(){
-        return 
+        return 5;
     }
     public static void main(String[] args) {
-        Student s1=new Student(123,'ram');
+        student s1=new student(123,"ram");
+        
     }
 }
