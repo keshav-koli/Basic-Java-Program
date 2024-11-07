@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 class firstArrayList {
     public static void main(String[] args) {
-        Collection c = new ArrayList();
+        Collection <Object>c = new ArrayList<>();
         c.add("Apple");
         c.add(80);
         c.add(true);
         System.out.println(c);
-        Collection c2=new ArrayList();
+        Collection <Object>c2=new ArrayList<>();
         c2.add("mango");
         c2.add(1.25);
         c2.add(52);
