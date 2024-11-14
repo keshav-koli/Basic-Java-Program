@@ -1,4 +1,4 @@
-package Collection.SortedSet;
+package Collection.Set.SortedSet;
 
 import java.util.SortedSet;
 import java.util.TreeSet;

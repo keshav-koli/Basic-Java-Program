@@ -1,4 +1,4 @@
-package Collection.Hashset;
+package Collection.Set.Hashset;
 
 
 public class Student {

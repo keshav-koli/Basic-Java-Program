@@ -1,4 +1,4 @@
-package Collection.SortedSet.TreeSet;
+package Collection.Set.SortedSet.TreeSet;
 import java.util.Iterator;
 import java.util.TreeSet;
 public class TreeSetClass {
