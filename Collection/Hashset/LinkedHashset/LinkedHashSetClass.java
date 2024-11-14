@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class LinkedHashSetClass {
     public static void main(String[] args) {
-        Set s=new LinkedHashSet();
+        Set<Object> s = new LinkedHashSet<>();
         s.add(45);
         s.add(12);
         s.add("hello");

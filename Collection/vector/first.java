@@ -6,7 +6,7 @@ import java.util.Vector;
 
 public class first {
     public static void main(String[] args) {
-        List l=new Vector(); //Its object is Thread safe
+        List<Object> l=new Vector<>(); //Its object is Thread safe
         l.add("ayush");
         l.add("ram");
         l.add(45);
@@ -17,12 +17,12 @@ public class first {
         
         
         
-        ListIterator i=l.listIterator(l.size());
+        ListIterator<Object> i=l.listIterator(l.size());
         for (;i.hasPrevious();) {
             System.out.println(i.previous());
         }
 
-        Vector v = new Vector();
+        Vector<Object> v = new Vector<>();
 		v.add(10);
 		v.add(50);
 		v.add(100);
