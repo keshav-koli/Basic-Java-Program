@@ -5,14 +5,14 @@ import java.util.Map;
 
 public class demo {
     public static void main(String[] args) {
-        Map m=new HashMap();
+        Map <String,Integer>m=new HashMap<>();
         m.put("Samosa",20);
         m.put("Burger",50);
         m.put("Pasta",80);
         m.put("Pizza",100);
         System.out.println(m);
 
-        Map m1=new HashMap();
+        Map <String,Integer>m1=new HashMap<>();
         System.out.println("Before adding "+m1);
         m1.putAll(m);
         System.out.println("after adding "+m1);

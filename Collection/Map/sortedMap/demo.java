@@ -5,7 +5,7 @@ import java.util.TreeMap;
 
 public class demo {
     public static void main(String[] args) {
-        SortedMap m=new TreeMap();
+        SortedMap <String,Integer>m=new TreeMap<>();
         m.put("Samosa",20);
         m.put("Burger",50);
         m.put("Pasta",80);
