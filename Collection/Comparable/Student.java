@@ -1,6 +1,6 @@
 package Collection.Comparable;
 
-public class Student implements Comparable {
+public class Student implements Comparable<Student> {
     public int rollno;
     public String name;
     public Student(int rollno, String name) {
@@ -26,8 +26,7 @@ public class Student implements Comparable {
     // @Override
     //To compare the student objects based on rollno
     //override compareTo method of Comparable interface and write logic to compare the student objects based on rollno
-    public int compareTo(Object o) {
-        Student s=(Student)o;
+    public int compareTo(Student s) {
         if(this.rollno==s.rollno) {
             return 0;
         } else if(this.rollno>s.rollno) {
